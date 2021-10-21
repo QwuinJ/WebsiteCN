@@ -1,0 +1,190 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{box-sizing: border-box;}
+
+/* Body style */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    background-color: powderblue;
+}
+
+/* Header at top (isntead of using h1) */
+
+#header{
+    padding: 5vh;
+    text-align: center;
+    background-color: teal;
+    color: white;
+}
+
+/* Navigation menu at top */
+
+.topnav {
+    display: flex;
+    background-color: mediumseagreen;
+    justify-content: center;
+}
+
+.topnav a {
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20pt;
+}
+
+.topnav a:hover{
+    background-color: white;
+    color: mediumseagreen;
+}
+
+/* formatting for homepage flexbox */
+.hero-img{
+    background-color: darkslategray;
+    background-size: cover;
+    height: 25vh;
+    width: 100%;
+    position: relative;
+}
+
+.inside-container{
+    display: flex;
+    height: 25vh;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content{
+    color: white;
+    line-height: 1.5;
+    position: relative;
+    z-index: 2;
+}
+
+.hero-header{
+    font-weight: 600;
+    font-size: 35pt;
+    letter-spacing: 1px;
+}
+
+
+/* formatting for unequal columns on page */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.lsidecolumn {
+    flex: 30%;
+    background-color: white;
+    padding:2vh;
+    max-width: 50vh;
+}
+
+.maincolumn {
+    flex: 70%;
+    background-color: seashell;
+    padding:20px;
+    max-width: 100vh;
+}
+
+/* formatting for displaying two equal columns */
+
+.equ-column{
+    display: flex;
+    max-width: 150vh;
+    margin: 0 auto;
+}
+
+.equ-column > div {
+    justify-content: center;
+    flex-basis: 100%;
+    padding: 10px;
+    background-color: white;
+}
+
+/* footer */
+#footer {
+    padding: 3vh;
+    text-align: center;
+    color: white;
+    background-color: darkslategray;
+}
+
+/* formatting for headings */
+
+h1 {
+    color: white;
+    font-size: 40pt;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: none;
+    margin: 0;
+}
+
+/* to align some of the headings to the right */
+.headright{
+    text-align: right;
+    position: relative;
+}
+
+/* to align some headings in the center */
+
+.headcenter{
+    text-align: center;
+}
+
+/* format for first para on each page */
+
+.intro {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    width: 500px;
+}
+
+/* individual formatting for different pictures on the site pages */
+
+/* for pic on index page */
+.pic{
+    max-width: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* for pictures on Personal Interests page */
+.pic2{
+    display: flex;
+    max-width: 50vh;
+    height: auto;
+    text-align: right;
+    float:right;
+    padding-bottom: 5px;
+    z-index: -1;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+
+/* for picture on CV page */
+.pic3{
+    display: flex;
+    max-width: 30vh;
+
+}
+
+
+@media screen and (max-width: 700px) {
+    .topnav, .equ-column {
+        flex-direction:column;
+    }
+}
