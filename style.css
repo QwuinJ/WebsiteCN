@@ -118,12 +118,6 @@ body {
     background-color: darkslategray;
 }
 
-/* formatting for footer link colour */
-
-.foota{
-    color: white;
-}
-
 /* formatting for headings */
 
 h1 {
@@ -178,6 +172,11 @@ h1 {
 
 }
 
+/* formatting for footer link colour */
+
+.foota {
+    color: white;
+}
 
 @media screen and (max-width: 700px) {
     .topnav, .equ-column {
