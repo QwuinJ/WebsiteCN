@@ -74,7 +74,7 @@ body {
 }
 
 
-/* formatting for unequal columns on page */
+/* formatting for unequal columns on CV page */
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -110,12 +110,18 @@ body {
     background-color: white;
 }
 
-/* footer */
+/* formatting for footer */
 #footer {
     padding: 3vh;
     text-align: center;
     color: white;
     background-color: darkslategray;
+}
+
+/* formatting for footer link colour */
+
+.foota{
+    color: white;
 }
 
 /* formatting for headings */
@@ -143,17 +149,7 @@ h1 {
     text-align: center;
 }
 
-/* format for first para on each page */
-
-.intro {
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-    width: 500px;
-}
-
 /* individual formatting for different pictures on the site pages */
-
 /* for pic on index page */
 .pic{
     max-width: 50vh;
