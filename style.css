@@ -43,7 +43,7 @@ body {
     color: mediumseagreen;
 }
 
-/* formatting for homepage flexbox */
+/* formatting for homepage "hero banner" flexbox */
 .hero-img{
     background-color: darkslategray;
     background-size: cover;
@@ -60,6 +60,7 @@ body {
     align-items: center;
 }
 
+/* formatting for the content */
 .hero-content{
     color: white;
     line-height: 1.5;
